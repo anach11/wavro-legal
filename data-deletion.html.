@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavro — Data Deletion Request</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fff;
+            padding: 2rem 1.5rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 1.6rem; margin-bottom: 0.3rem; }
+        h2 { font-size: 1.15rem; margin-top: 2rem; margin-bottom: 0.6rem; }
+        p { margin-bottom: 1rem; }
+        ul { margin: 0.5rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .subtitle { color: #555; font-size: 0.95rem; margin-bottom: 1.5rem; }
+        .footer { margin-top: 3rem; color: #888; font-size: 0.85rem; text-align: center; }
+        .email { font-weight: 600; }
+        .steps { background: #f7f7f7; border-radius: 8px; padding: 1.2rem 1.5rem; margin: 1rem 0 1.5rem; }
+        .steps ol { margin: 0.5rem 0 0 1.2rem; }
+        .steps li { margin-bottom: 0.4rem; }
+    </style>
+</head>
+<body>
+
+<h1>Wavro — Data Deletion Request</h1>
+<p class="subtitle">How to request deletion of your data from Wavro</p>
+
+<h2>What data Wavro stores</h2>
+<p>Wavro is designed around anonymity and does not collect names, email addresses, passwords, or any personally identifiable information. The following data is associated with your anonymous session:</p>
+<ul>
+    <li><strong>Capsule data</strong> (mood, genres, artists/songs, title, continent) — automatically deleted 48–96 hours after creation</li>
+    <li><strong>Alias</strong> — your self-chosen pseudonym, stored on our servers</li>
+    <li><strong>Session token</strong> — an anonymous identifier (UUID) used to associate your activity</li>
+    <li><strong>Moderation records</strong> — reports and blocks you have submitted</li>
+    <li><strong>Usage quota records</strong> — daily counters, reset every 24 hours</li>
+</ul>
+<p>Local data stored on your device (capsule history, preferences, listening progress) never leaves your device and can be erased at any time by clearing the App's storage in your device settings or uninstalling the App.</p>
+
+<h2>How to request deletion</h2>
+<div class="steps">
+    <ol>
+        <li>Send an email to <span class="email">developer.dksk@gmail.com</span></li>
+        <li>Use the subject line: <strong>Data Deletion Request</strong></li>
+        <li>In the body, include your alias (the pseudonym you chose in the App) so we can locate your data</li>
+    </ol>
+</div>
+<p>We will delete all server-side data associated with your session — including your alias, any active capsules, moderation records, and usage quotas — within <strong>30 days</strong> of receiving your request.</p>
+
+<h2>What is kept after deletion</h2>
+<ul>
+    <li><strong>Aggregated trend data</strong> — anonymized, non-individual counts of popular moods, genres, and artists. This data cannot be traced back to any user and is retained for product analytics.</li>
+    <li><strong>Local device data</strong> — data stored on your phone is not accessible to us. Clear the App's storage or uninstall to remove it.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>For questions about data deletion or our privacy practices, contact us at: <span class="email">developer.dksk@gmail.com</span></p>
+<p>See our full <a href="https://wavro.app/privacy-policy.html">Privacy Policy</a> for more details.</p>
+
+<p class="footer">Wavro · wavro.app · © 2026</p>
+
+</body>
+</html>
