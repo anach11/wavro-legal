@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wavro — Privacy Policy</title>
-<style>
-  body { font-family: system-ui, -apple-system, sans-serif; max-width: 680px; margin: 0 auto; padding: 40px 20px; color: #2C2C2A; line-height: 1.7; background: #FAFAF8; }
-  h1 { font-size: 28px; margin-bottom: 8px; }
-  h2 { font-size: 20px; margin-top: 32px; margin-bottom: 8px; }
-  .date { color: #888; font-size: 14px; margin-bottom: 32px; }
-  p, li { font-size: 15px; margin-bottom: 12px; }
-  ul { padding-left: 24px; }
-  a { color: #4A6FD4; }
-  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #ddd; font-size: 13px; color: #888; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavro — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fff;
+            padding: 2rem 1.5rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 1.6rem; margin-bottom: 0.3rem; }
+        h2 { font-size: 1.15rem; margin-top: 2rem; margin-bottom: 0.6rem; }
+        p { margin-bottom: 1rem; }
+        ul { margin: 0.5rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .updated { color: #555; font-size: 0.95rem; margin-bottom: 1.5rem; }
+        .footer { margin-top: 3rem; color: #888; font-size: 0.85rem; text-align: center; }
+        strong { font-weight: 600; }
+    </style>
 </head>
 <body>
+
 <h1>Wavro — Privacy Policy</h1>
-<p class="date">Last updated: July 2026</p>
+<p class="updated">Last updated: July 2026</p>
 
 <p>Wavro ("the App") is a music taste-matching application. We are committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
 
 <h2>1. Data we collect</h2>
 <p>Wavro is designed around anonymity. We do not require registration, email addresses, passwords, phone numbers, or any personally identifiable information (PII) to use the App.</p>
-<p>When you use Wavro, the following data is stored:</p>
+<p>When you use Wavro, the following data is collected:</p>
 <ul>
-  <li><strong>Capsule data:</strong> The mood, genres, artists/songs, title, and continent (derived from your device timezone, not precise location) you provide when creating a Musical Capsule. This data is stored on our servers for matching purposes and is automatically deleted after 48-96 hours.</li>
-  <li><strong>Alias:</strong> A self-chosen username you pick on first use. This is not linked to any real-world identity.</li>
-  <li><strong>Session token:</strong> A randomly generated anonymous identifier (UUID) stored locally on your device. This is used for rate-limiting reports and managing credits. It is not linked to any personal information.</li>
-  <li><strong>Aggregated trends:</strong> We aggregate anonymized music trends (which moods, genres, and artists are popular) for internal analytics. Individual capsules are not preserved — only aggregate counts.</li>
-  <li><strong>Local data:</strong> Your capsule history, discovered items, listening progress, and platform preference are stored locally on your device using browser storage (LocalStorage). This data never leaves your device.</li>
+    <li><strong>Capsule data:</strong> The mood, genres, artists/songs, title, and continent (derived from your device timezone, not precise location) you provide when creating a Musical Capsule. This data is stored on our servers for matching purposes and is automatically deleted after 48–96 hours.</li>
+    <li><strong>Alias:</strong> A self-chosen pseudonym you pick on first use. It is stored on our servers to display on your capsules (if you opt in to showing it). It is not linked to any real-world identity.</li>
+    <li><strong>Session token:</strong> A randomly generated anonymous identifier (UUID) created on your device on first use. It is sent to our servers to associate your capsules, moderation records, and usage quotas with your session. It is not linked to any personal information and cannot be used to identify you outside the App.</li>
+    <li><strong>Moderation records:</strong> If you report or block another user, a record of that action is stored on our servers along with your session token.</li>
+    <li><strong>Aggregated trends:</strong> We aggregate anonymized music trends (which moods, genres, and artists are popular) for internal analytics. Individual capsules are not preserved — only aggregate counts.</li>
+    <li><strong>Local data:</strong> Your capsule history, discovered items, listening progress, and platform preference are stored locally on your device using browser storage (LocalStorage). This data never leaves your device.</li>
 </ul>
 
 <h2>2. Data we do NOT collect</h2>
 <ul>
-  <li>Names, email addresses, phone numbers, or any PII</li>
-  <li>Precise location (GPS, IP address logging, or geofencing)</li>
-  <li>Contacts, photos, camera, or microphone access</li>
-  <li>Browsing history outside the App</li>
-  <li>Audio playback data (the App does not play music)</li>
-  <li>Payment card details (all purchases are handled entirely by Google Play Billing — we never see or store payment information)</li>
+    <li>Names, email addresses, phone numbers, or any PII</li>
+    <li>Precise location (GPS, IP address logging, or geofencing)</li>
+    <li>Contacts, photos, camera, or microphone access</li>
+    <li>Browsing history outside the App</li>
+    <li>Audio playback data (the App does not play music)</li>
+    <li>Payment card details — if in-app purchases are offered in the future, they will be handled entirely by Google Play Billing and we will never see or store payment information</li>
 </ul>
 
 <h2>3. Third-party services</h2>
 <p>Wavro uses the following third-party services:</p>
 <ul>
-  <li><strong>Google AdMob:</strong> Displays ads within the App. AdMob may collect device identifiers and usage data as described in <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. We configure ads in "Non-Personalized" mode, meaning ads are served based on the musical context of the current capsule, not your personal browsing or behavioral profile.</li>
-  <li><strong>Google Firebase Analytics:</strong> Collects anonymous usage analytics (screen views, feature usage counts, crash reports). No personally identifiable information is sent. See <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a>.</li>
-  <li><strong>Google Play Billing:</strong> Handles in-app credit purchases. All payment processing is managed entirely by Google — we never receive, see, or store any credit card or payment details.</li>
-  <li><strong>iTunes Search API (Apple):</strong> Used to provide autocomplete suggestions when you type artist or song names. Your search query is sent to Apple's public API to retrieve suggestions. No account or authentication is involved.</li>
-  <li><strong>Supabase:</strong> Hosts our database infrastructure. Capsule data is stored on Supabase servers. See <a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a>.</li>
+    <li><strong>Google AdMob:</strong> Displays ads within the App. AdMob may collect device identifiers and usage data as described in <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We configure ads in non-personalized mode, meaning ads are not based on your personal browsing or behavioral profile.</li>
+    <li><strong>Google Firebase Analytics:</strong> Collects anonymous usage analytics (screen views, feature usage counts). No personally identifiable information is sent. See <a href="https://firebase.google.com/support/privacy">Firebase Privacy</a>.</li>
+    <li><strong>iTunes Search API (Apple):</strong> Used to provide autocomplete suggestions when you type artist or song names. Your search query is sent to Apple's public API to retrieve suggestions. No account or authentication is involved.</li>
+    <li><strong>Supabase:</strong> Hosts our database infrastructure. Capsule data and session-related records are stored on Supabase servers. See <a href="https://supabase.com/privacy">Supabase Privacy Policy</a>.</li>
 </ul>
 
 <h2>4. How we use data</h2>
 <ul>
-  <li>To match your Musical Capsule with other users' capsules based on mood, genre, and artist overlap</li>
-  <li>To aggregate anonymized music trends for internal product analysis</li>
-  <li>To display contextual (not behavioral) advertisements</li>
-  <li>To prevent abuse (rate-limiting reports, banning abusive tokens)</li>
-  <li>To process in-app credit purchases via Google Play Billing</li>
+    <li>To match your Musical Capsule with other users' capsules based on mood, genre, and artist overlap</li>
+    <li>To aggregate anonymized music trends for internal product analysis</li>
+    <li>To display contextual advertisements</li>
+    <li>To enforce daily usage quotas and manage credits</li>
+    <li>To prevent abuse (rate-limiting reports, blocking and banning abusive sessions)</li>
 </ul>
 
 <h2>5. Data retention</h2>
 <ul>
-  <li>Individual capsules are automatically deleted from our servers 48-96 hours after creation</li>
-  <li>Aggregated trend data (non-individual) is retained indefinitely</li>
-  <li>Report records are retained for moderation purposes</li>
-  <li>Local device data (history, preferences) persists until you clear the App's data or uninstall it</li>
+    <li>Individual capsules are automatically deleted from our servers 48–96 hours after creation</li>
+    <li>Your alias is retained on our servers for as long as your session is active</li>
+    <li>Moderation records (reports and blocks) are retained indefinitely for safety purposes</li>
+    <li>Usage quota records are reset daily and not retained beyond their operational period</li>
+    <li>Aggregated trend data (non-individual) is retained indefinitely</li>
+    <li>Local device data (history, preferences) persists until you clear the App's data or uninstall it</li>
 </ul>
 
 <h2>6. User-generated content</h2>
-<p>Capsule titles, custom moods, and artist/song names are considered user-generated content (UGC). We apply automated profanity filtering and provide a reporting mechanism for offensive content. Reported capsules are reviewed weekly and may be removed. Users who repeatedly submit offensive content may have their session token temporarily or permanently banned.</p>
+<p>Capsule titles, custom moods, and artist/song names are considered user-generated content (UGC). We apply automated content filtering and provide a reporting mechanism for offensive content. Reported capsules are reviewed and may be removed. Users who repeatedly submit offensive content may have their session temporarily or permanently banned.</p>
 
 <h2>7. Children's privacy</h2>
 <p>Wavro is not directed at children under 13. We do not knowingly collect data from children. If you believe a child under 13 has used the App, please contact us and we will take appropriate action.</p>
 
-<h2>8. Your rights</h2>
-<p>Because Wavro does not collect personally identifiable information, there is no personal data to access, correct, or delete. Your local data (capsule history, preferences) can be erased at any time by clearing the App's storage in your device settings or uninstalling the App.</p>
+<h2>8. Your rights and data deletion</h2>
+<p>Although Wavro does not collect personally identifiable information, we recognize that your session data (alias, moderation records, and any associated capsule history) may be considered personal data under applicable privacy laws.</p>
+<p>You have the right to request deletion of all server-side data associated with your session. To do so, contact us at <strong>developer.dksk@gmail.com</strong> with the subject line "Data Deletion Request." We will process your request within 30 days.</p>
+<p>Your local data (capsule history, preferences, session token) can be erased at any time by clearing the App's storage in your device settings or uninstalling the App.</p>
 
 <h2>9. Changes to this policy</h2>
 <p>We may update this policy from time to time. The "Last updated" date at the top of this page reflects the most recent revision. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
@@ -84,8 +101,8 @@
 <h2>10. Contact</h2>
 <p>For questions about this privacy policy or about Wavro, contact us at: <strong>developer.dksk@gmail.com</strong></p>
 
-<div class="footer">
-  <p>Wavro · wavro.app · © 2026</p>
-</div>
+<p class="footer">Wavro · wavro.app · © 2026</p>
+
 </body>
 </html>
+
